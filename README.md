@@ -20,7 +20,7 @@ Welcome to the Letter repository!. This README will guide you through setting up
   ```
 - cd into this folder:
   ```
-letter
+  letter
   ```
 - Install Dependancies:
   ```
