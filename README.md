@@ -16,7 +16,7 @@ Welcome to the Letter repository!. This README will guide you through setting up
 
 - Clone this repository to your computer
   ```
-  git clone https://github.com/The-Dragonss/TeleSoma.git
+  git clone git@github.com:emuiga/letter.git
   ```
 - cd into this folder:
   ```
