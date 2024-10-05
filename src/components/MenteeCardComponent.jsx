@@ -87,6 +87,10 @@ const cardsData = [
         </button>
       </div>
 
+      <div>
+      <h2 class="framer-text">[hi play above track as you read this]</h2>
+      </div>
+      
       <div className="card-grid">
        {cardsData.map((card, index) => (
           <MenteeCard

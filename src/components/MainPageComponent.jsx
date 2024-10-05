@@ -26,6 +26,10 @@ export default function App() {
           {isPlaying ? <FaPause /> : <FaPlay />}
         </button>
       </div>
+
+      <div>
+      <h2 class="framer-text">[hi play above track as you read this]</h2>
+      </div>
     </>
   );
 }
