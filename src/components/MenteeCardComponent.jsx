@@ -2,7 +2,6 @@ import { useState } from 'react';
 import useSound from 'use-sound';
 import { FaPlay, FaPause } from 'react-icons/fa';
 import MenteeCard from '../Pages/MenteeCard';
-// import { MenteeCardComponent } from '../components/MenteeCardComponent';
 import SherryPng from "../assets/sherry.png"
 import LauraPng from "../assets/laura.png"
 import PeterPng from "../assets/peter.png"
@@ -16,7 +15,7 @@ import AngelaPng from "../assets/angela.png"
 
 export default function App() {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [play, { stop }] = useSound('sound.mp3', { loop: true, interrupt: false });
+  const [play, { stop }] = useSound('sound1.mp3', { loop: true, interrupt: false });
 
   
 // const cardsData = Array.from({ length: 38 }, (_, index) => ({
@@ -64,10 +63,6 @@ const cardsData = [
   { imgSrc: AngelaPng, imgAlt: "Image 1", title: "Angela Kinoro" },
   { imgSrc: SebbiePng, imgAlt: "Image 1", title: "Sebbie Mzing" },
   { imgSrc: SherryPng, imgAlt: "Image 1", title: "Shadrack Anyona" },
-  // { imgSrc: require("../assets/image2.jpg"), imgAlt: "Image 2", title: "Card Title 2" },
-  // { imgSrc: require("../assets/image3.jpg"), imgAlt: "Image 3", title: "Card Title 3" },
-  // // ... continue adding for each image
-  // { imgSrc: require("../assets/image38.jpg"), imgAlt: "Image 38", title: "Card Title 38" },
 ];
 
   const togglePlay = () => {
@@ -88,7 +83,7 @@ const cardsData = [
       </div>
 
       <div>
-      <h2 class="framer-text">[hi play above track as you read this]</h2>
+      <h2 class="header-text">[hi play above track as you read this]</h2>
       </div>
       
       <div className="card-grid">

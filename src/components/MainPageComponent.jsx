@@ -2,11 +2,10 @@ import { useState } from 'react';
 import useSound from 'use-sound';
 import { FaPlay, FaPause } from 'react-icons/fa';
 import MenteeCard from '../Pages/MenteeCard';
-// import { MenteeCardComponent } from '../components/MenteeCardComponent';
 
 export default function App() {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [play, { stop }] = useSound('sound.mp3', { loop: true, interrupt: false });
+  const [play, { stop }] = useSound('sound1.mp3', { loop: true, interrupt: false });
 
   
 
@@ -28,7 +27,7 @@ export default function App() {
       </div>
 
       <div>
-      <h2 class="framer-text">[hi play above track as you read this]</h2>
+      <h2 class="header-text">[hi play above track as you read this]</h2>
       </div>
     </>
   );
