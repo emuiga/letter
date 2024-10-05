@@ -48,3 +48,13 @@
   }
 }
   
+
+.header-text {
+  font-family:'Manrope', sans-serif;
+  font-size:18px;
+  font-weight:500;
+  line-height:1.6em;
+  display: flex;
+  justify-content:center;
+  color:var(--token-886c99f5-051b-4ddf-9c2e-46b5d7b8bc86, rgb(122, 122, 122))
+}
