@@ -15,7 +15,7 @@ import AngelaPng from "../assets/angela.png"
 
 export default function App() {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [play, { stop }] = useSound('sound1.mp3', { loop: true, interrupt: false });
+  const [play, { stop }] = useSound('sound2.mp3', { loop: true, interrupt: false });
 
   
 // const cardsData = Array.from({ length: 38 }, (_, index) => ({
