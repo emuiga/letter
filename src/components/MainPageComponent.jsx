@@ -5,7 +5,7 @@ import MenteeCard from '../Pages/MenteeCard';
 
 export default function App() {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [play, { stop }] = useSound('sound1.mp3', { loop: true, interrupt: false });
+  const [play, { stop }] = useSound('sound2.mp3', { loop: true, interrupt: false });
 
   
 
