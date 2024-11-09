@@ -12,7 +12,7 @@ export const router = createBrowserRouter([
     element: <MainPage />,
   },
     {
-      path: "/mentees",
+      path: "/self",
       element: <MenteeCardComponent />,
     },
   ]);
